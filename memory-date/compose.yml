@@ -1,0 +1,25 @@
+services:
+  ruby:
+    build: ./build/ruby
+    ports:
+      - "20002:20002"
+    volumes:
+      - ./ruby:/usr/src/ruby
+    networks:
+      - x22043-net
+
+  ruby-cgi:
+    build: ./build/ruby-cgi
+    ports:
+      - "8088:80"
+    volumes:
+      - ./ruby:/usr/src/ruby
+      - ./pages:/var/www/html
+      - ./repository:/usr/src/cgi-bin
+      - ./logs:/var/log/apache2
+    networks:
+      - x22043-net
+
+networks:
+  x22043-net:
+    driver: bridge

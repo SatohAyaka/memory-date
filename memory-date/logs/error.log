@@ -1,0 +1,42 @@
+[Wed Jan 22 08:06:05.142047 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 08:06:05.147504 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 08:06:05.147696 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 09:59:22.988538 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 09:59:22.992616 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 09:59:22.992690 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:00:40.402685 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:00:40.406377 2025] [cgid:error] [pid 9:tid 9] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/socks/cgisock.8
+[Wed Jan 22 10:00:40.407055 2025] [core:warn] [pid 8:tid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 22 10:00:40.408374 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:00:40.408467 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:00:40.408561 2025] [cgid:crit] [pid 8:tid 8] AH01238: cgid daemon failed to initialize
+[Wed Jan 22 10:12:37.729219 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:12:37.735280 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:12:37.735387 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:28:33.197951 2025] [alias:warn] [pid 7:tid 7] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:28:33.205801 2025] [mpm_event:notice] [pid 7:tid 7] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:28:33.205945 2025] [core:notice] [pid 7:tid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:29:17.362554 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:29:17.367711 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:29:17.367816 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:29:42.670582 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:29:42.676646 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:29:42.676744 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:30:00.775463 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:30:00.776776 2025] [cgid:error] [pid 9:tid 9] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/socks/cgisock.8
+[Wed Jan 22 10:30:00.777709 2025] [core:warn] [pid 8:tid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 22 10:30:00.778373 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:30:00.778481 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jan 22 10:30:00.778579 2025] [cgid:crit] [pid 8:tid 8] AH01238: cgid daemon failed to initialize
+[Wed Jan 22 10:30:34.414309 2025] [alias:warn] [pid 8:tid 8] AH00671: The ScriptAlias directive in /etc/apache2/conf-enabled/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 22 10:30:34.418347 2025] [mpm_event:notice] [pid 8:tid 8] AH00489: Apache/2.4.62 (Debian) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Jan 22 10:30:34.418438 2025] [core:notice] [pid 8:tid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
