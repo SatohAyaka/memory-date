@@ -1,0 +1,23 @@
+body {
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.title {
+    width: 65%;
+}
+
+.page-switch {
+    display: flex;
+    gap: 25%;
+    width: 35%;
+}

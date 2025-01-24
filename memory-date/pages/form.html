@@ -3,11 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="padding-left: 20px; padding-top: 20px;">
+<body>
+    <header>
+        <h1 class="title">思い出共有</h1>
+        <div class="page-switch">
+            <a href="main.html">閲覧</a>
+            <a href="form.html">投稿</a>
+        </div>
+    </header>
+    <hr>
     <form action="cgi-bin/chat.rb" method="POST" style="padding-top: 20px;">
-        <input type="text" name="message" size="50rem">
+        <label>タイトル
+            <input type="text" name="title" size="10rem">
+        </label><br>
+        <label>コメント
+            <input type="text" name="comment" size="50rem">
+        </label><br>
+        <label>写真
+            <input type="file" name="picture" accept="image/jpg, image/jpeg, image/png">
+        </label><br>
         <button type="submit">送信</button>
     </form>
 </body>

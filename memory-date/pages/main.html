@@ -3,10 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function get() {
+            navigator.geolocation.getCurrentPosition(position);
+        }
+        function position() {
+        }
+    </script>
 </head>
 
-<body style="padding-left: 20px; padding-top: 20px;">
-    <iframe src="cgi-bin/read.rb" width="600px" height="400px" style="padding: 10px;"></iframe>
+<body>
+    <header>
+        <h1 class="title">思い出共有</h1>
+        <div class="page-switch">
+            <a href="main.html">閲覧</a>
+            <a href="form.html">投稿</a>
+        </div>
+    </header>
+    <hr>
+    <iframe src="repository/map.rb" width="600px" height="400px" style="padding: 10px;"></iframe>
+    <div id="posts" src="repository/read.rb"></div>
 </body>
 
 </html>
