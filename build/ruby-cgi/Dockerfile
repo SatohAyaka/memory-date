@@ -16,10 +16,10 @@ RUN a2enmod cgi
 # Apache のポート設定
 EXPOSE 80
 
-# デフォルトのサイト設定を更新
-RUN echo 'ScriptAlias /cgi-bin/ /usr/src/cgi-bin/' > /etc/apache2/conf-available/cgi-bin.conf
-RUN echo '<Directory "/usr/src/cgi-bin">\nOptions +ExecCGI\nAddHandler cgi-script .rb\nRequire all granted\n</Directory>' >> /etc/apache2/conf-available/cgi-bin.conf
-RUN a2enconf cgi-bin
+# Apacheの設定ファイルの変更（CGIを有効にする）
+RUN echo 'ScriptAlias /cgi-bin/ /usr/src/repository/' > /etc/apache2/conf-available/cgi-bin.conf && \
+    echo '<Directory "/usr/src/repository">\nOptions +ExecCGI\nAddHandler cgi-script .rb\nRequire all granted\n</Directory>' >> /etc/apache2/conf-available/cgi-bin.conf && \
+    a2enconf cgi-bin
 
 # Apache を前面で実行
 CMD ["apachectl", "-D", "FOREGROUND"]

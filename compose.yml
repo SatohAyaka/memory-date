@@ -15,7 +15,7 @@ services:
     volumes:
       - ./ruby:/usr/src/ruby
       - ./pages:/var/www/html
-      - ./repository:/usr/src/cgi-bin
+      - ./repository:/usr/src/repository
       - ./logs:/var/log/apache2
     networks:
       - x22043-net
